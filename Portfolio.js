@@ -1,26 +1,3 @@
-// Animated Text in Home Section
-// const animatedText = document.querySelector('.animated-text');
-// const roles = ['Developer', 'SEO Expert', 'Overthinker'];
-// let roleIndex = 0;
-
-// setInterval(() => {
-//   animatedText.textContent = roles[roleIndex];
-//   roleIndex = (roleIndex + 1) % roles.length;
-// }, 5000);
-
-// // Mobile Navigation
-// const hamburger = document.querySelector('.hamburger');
-// const navLinks = document.querySelector('.nav-links');
-
-// hamburger.addEventListener('click', () => {
-//   navLinks.classList.toggle('active');
-// });
-// Animated Text in Home Section
-// Particles Background
-particlesJS.load("particles-js", "particles.json", function () {
-  console.log("Particles loaded!");
-});
-
 // Navbar Scroll Animation
 window.addEventListener("scroll", () => {
   const navbar = document.querySelector(".navbar");
